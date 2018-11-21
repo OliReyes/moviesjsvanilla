@@ -1,0 +1,12 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "A list of movies for Gfi.",
+  "scripts": {
+  },
+  "author": "Oliver Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

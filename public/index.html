@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Lista de películas</title>
+    <script src="js/main.js" charset="utf-8"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+
+    <style media="screen">
+
+      body, html{
+        font-family: 'Roboto', sans-serif;
+      }
+
+      #content{
+        display: none;
+      }
+
+      #moviesList{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+      }
+
+      .movie{
+        display: inline-block;
+        font-size: 0;
+        vertical-align: top;
+        max-width: 300px;
+        padding: .5rem;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      .movie h2{
+        font-size: 1.4rem;
+        font-weight: 700;
+      }
+
+      .movie small{
+        font-size: 1rem;
+        font-weight: 300;
+      }
+
+      .movie img{
+        max-width: 200px;
+      }
+
+      .movie button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 1rem;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div id="login">
+      <input id="user" type="text" placeholder="Usuario">
+      <input id="pass" type="text" placeholder="Contraseña">
+      <button id="loginButton">Iniciar Sesión</button>
+    </div>
+
+    <div id="content">
+      <h1>STAR WARS SAGA</h1>
+      <ul id="moviesList"></ul>
+    </div>
+
+  </body>
+</html>
