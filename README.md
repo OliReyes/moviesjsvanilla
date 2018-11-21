@@ -7,5 +7,5 @@ How to run it?
 2. node app.js
 3. localhost:3000
 
-Usuario: user
-Contraseña: 1234
+- Usuario: user
+- Contraseña: 1234
