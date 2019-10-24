@@ -1,11 +1,21 @@
 # moviesjsvanilla
-A test project for Gfi in javascript vanilla.
+A technical test project for GFI company showing a list of movies and their detail view only with Javascript vanilla.
 
-How to run it?
+1. With your command prompt open the folder of moviesjsvanilla project.
 
-1. npm install
-2. node app.js
-3. localhost:3000
+2. Run the following command to install dependencies:
+```
+npm install
+```
 
+3. Finally start the app running:
+```
+node app.js
+```
+
+Find the app running in localhost:3000
+
+
+FAKE LOGIN:
 - Usuario: user
 - Contraseña: 1234
